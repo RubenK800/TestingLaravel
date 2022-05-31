@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::any('/',function (){return view('welcome');});
 
+Route::any('/',function (){return view('welcome');});
 Route::any('/poster',function (){return view('approve');});

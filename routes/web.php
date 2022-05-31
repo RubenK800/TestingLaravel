@@ -21,6 +21,5 @@ Route::get('/', function () {
 
 
 
-
 Route::any('/',function (){return view('welcome');});
 

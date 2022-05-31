@@ -17,9 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
-
-
 Route::any('/',function (){return view('welcome');});
 
